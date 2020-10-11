@@ -1,4 +1,3 @@
-
 # JumpCutterV3GUI
 Automatically cuts silent sections of videos - Originally inspired by carykh.
 
@@ -10,6 +9,8 @@ Set the values for how fast you want silent parts of your lecture to be, what th
 
 Carykh's video: https://www.youtube.com/watch?v=DQ8orIurGxw
 Carykh's program: https://github.com/carykh/jumpcutter
+
+>See the note at the bottom of this readme.md regarding extensions that may be more suited to your usecase.
 
 # Windows Setup (GUI)
 [JumpCutter_AIO.exe](https://github.com/seaty6/jumpcutterV2/releases/latest/download/JumpCutter_AIO.exe)
@@ -96,3 +97,7 @@ Based on Python3
 Thanks to [gusals3587](https://github.com/gusals3587/jumpcutterV2) for reworking the code to be much more optimized
 
 Thanks to [WyattBlue](https://github.com/WyattBlue/jumpcutterV2) for adding back the all but the frame_margin parameter
+
+
+# Notes:
+It's important to mention that broswer extensions exist like the one WofWca has made [(Chrome link)](https://chrome.google.com/webstore/detail/jump-cutter/lmppdpldfpfdlipofacekcfleacbbncp?hl=en)  [(Github Link)](https://github.com/WofWca/jumpcutter) and the one vantezzen has made [(Chrome Link)](https://chrome.google.com/webstore/detail/skip-silence/fhdmkhbefcbhakffdihhceaklaigdllh?hl=en) [(Github Link)](https://github.com/vantezzen/skip-silence) exist - these browser extensions have jumpier audio, but require no local processing, and can skip on the fly. Depending on your workflow, and tolerance for audio imperfections, this may be an ideal solution. 
