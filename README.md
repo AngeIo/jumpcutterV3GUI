@@ -1,3 +1,4 @@
+
 # JumpCutterV3GUI
 Automatically cuts silent sections of videos - Originally inspired by carykh.
 
@@ -27,6 +28,8 @@ Close, then reopen the Administrative command prompt, and run:
 And you're done! You can now run the executable. You may have to install a codec pack depending on the file format you're trying to convert. CCCP and K-lite Basic have been tested and are confirmed working - you can install CCCP from [Ninite]([https://ninite.com/cccp/](https://ninite.com/cccp/)), the official [CCCP website]([http://www.cccp-project.net/](http://www.cccp-project.net/)), or  with the following command in an Administrative Command Prompt:
 
 ```choco install cccp```
+
+Check [usage](#usage ) for further instructions if you're having issues. 
 
 # Windows Setup (CLI)
  [fast_video.exe](https://github.com/seaty6/jumpcutterV2/releases/latest/download/fast_video.exe)
@@ -69,11 +72,14 @@ Everything is the same except for the file - get this one instead, and run ```fa
 Windows (GUI):
 run ```JumpCutterGui_AIO.exe```
 
+Remember that only one of the two fields (File/Folder location) should be filled, and the other should be blank. One is for doing individual files, and the other is for doing several videos, with in a folder. If using the folder option, be sure that only video files are in the folder. 
+
 Windows (CLI):
 `fast_video.exe {video file name} --silentSpeed {float} --silentThreshold {float} --floatMargin {float}`
 
 Python (GUI):
 run ```JumpCutterGui_AIO.py```
+
 
 Python (CLI):
 `python3 fast_video.py {video file name} --silentSpeed {float} --silentThreshold {float} --floatMargin {float}`
